@@ -1,0 +1,24 @@
+.header {
+  background-color: var(--main-white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.header__menu-bg {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("../Assets/Menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+
+.container__img {
+  padding: 1em;
+}
