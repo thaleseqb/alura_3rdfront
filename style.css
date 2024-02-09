@@ -12,6 +12,8 @@
 body {
   background-color: var(--background-color);
   font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 /* .first__main {
