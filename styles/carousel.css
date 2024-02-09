@@ -1,0 +1,57 @@
+.title__carousel {
+    background-color: var(--main-white);
+    text-align: center;
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 1.125em;
+    padding: 1em;
+  }
+  
+  .bottom__container {
+    margin: 1.25em 1.5em;
+    padding: 1rem 1rem 1.44rem 1rem;
+    background-color: var(--main-white);
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .carousel__fh2 {
+    font-weight: 700;
+    color: var(--orange);
+  }
+  
+  .carousel__sh2 {
+    color: var(--gradient-blue);
+    padding: 1em 0;
+    font-weight: 700;
+    font-size: 1.125rem;
+  }
+  
+  .carousel__par {
+    color: var(--gradient-blue);
+    font-weight: 400;
+    font-size: 0.875rem;
+    padding-bottom: 1em;
+  }
+  
+  .bottom__carousel__button {
+    padding: 1em;
+    width: 1.66rem;
+  }
+  
+  .lastb__container__left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .bottom__container__right {
+    text-align: center;
+  }
+  
+  .bottomcar__rightanc {
+    background-color: var(--orange);
+    color: var(--main-white);
+    font-weight: 700;
+    text-decoration: none;
+  }
+  

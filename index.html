@@ -5,41 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>AluraBooks</title>
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-
       <div class="container">
-        <input type="checkbox" id="menu" class="container__button">
+        <input type="checkbox" id="menu" class="container__button" />
         <label for="menu">
           <span class="header__menu-bg container__img"></span>
         </label>
         <ul class="list-menu">
           <li class="list-menu__title">Categorias</li>
-          <li class="list-menu__item"><a class="list-menu__link" href="#">Programação</a></li>
-          <li class="list-menu__item"><a class="list-menu__link" href="#">Front-end</a></li>
-          <li class="list-menu__item"><a class="list-menu__link" href="#">Infraestrutura</a></li>
-          <li class="list-menu__item"><a class="list-menu__link" href="#">Business</a></li>
-          <li class="list-menu__item"><a class="list-menu__link" href="#">Design & UX</a></li>
+          <li class="list-menu__item">
+            <a class="list-menu__link" href="#">Programação</a>
+          </li>
+          <li class="list-menu__item">
+            <a class="list-menu__link" href="#">Front-end</a>
+          </li>
+          <li class="list-menu__item">
+            <a class="list-menu__link" href="#">Infraestrutura</a>
+          </li>
+          <li class="list-menu__item">
+            <a class="list-menu__link" href="#">Business</a>
+          </li>
+          <li class="list-menu__item">
+            <a class="list-menu__link" href="#">Design & UX</a>
+          </li>
         </ul>
-        <img class="container__img" src="Assets/Logo.svg" alt="logo">
+        <img class="container__img" src="Assets/Logo.svg" alt="logo" />
       </div>
 
       <div class="container">
-        <a class="container__img" href="#"><img src="Assets/Favoritos.svg" alt="favorits"></a>
-        <a class="container__img" href="#"><img src="Assets/Compras.svg" alt="buying"></a>
-        <a class="container__img" href="#"><img src="Assets/Usuario.svg" alt="user"></a>
+        <a class="container__img" href="#"
+          ><img src="Assets/Favoritos.svg" alt="favorits"
+        /></a>
+        <a class="container__img" href="#"
+          ><img src="Assets/Compras.svg" alt="buying"
+        /></a>
+        <a class="container__img" href="#"
+          ><img src="Assets/Usuario.svg" alt="user"
+        /></a>
       </div>
-
     </header>
 
     <main class="main">
       <section class="banner">
         <h2 class="title__banner">Já sabe por onde começar ?</h2>
-        <p class="text__banner">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
-        <input type="search" class="search__banner" placeholder="Qual será sua próxima leitura?">
+        <p class="text__banner">
+          Encontre em nossa estante o que precisa para seu desenvolvimento!
+        </p>
+        <input
+          type="search"
+          class="search__banner"
+          placeholder="Qual será sua próxima leitura?"
+        />
+      </section>
+
+      <section class="carousel">
+        <h2 class="title__carousel">ÚLTIMOS LANÇAMENTOS</h2>
+
+        <div class="bottom__container">
+          <div class="bottom__container__left">
+            <h2 class="carousel__fh2">
+              Talvez você também se interesse por...
+            </h2>
+            <h2 class="carousel__sh2">Angular 11 e Firebase</h2>
+            <p class="carousel__par">
+              Construindo uma aplicação integrada com a plataforma do Google.
+            </p>
+
+            <div class="lastb__container__left">
+              <a href="#">
+                <img
+                  class="bottom__carousel__button"
+                  src="Assets/Favoritos.svg"
+                  alt="favoritos"
+                />
+              </a>
+              <a href="#">
+                <img
+                  class="bottom__carousel__button"
+                  src="Assets/Compras.svg"
+                  alt="compras"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="bottom__container__right">
+            <img
+              class="bottomcar__rightimg"
+              src="Assets/Angular.svg"
+              alt="angular logo"
+            />
+            <a class="bottomcar__rightanc" href="#">Saiba mais</a>
+          </div>
+        </div>
       </section>
     </main>
 
