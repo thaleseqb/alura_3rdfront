@@ -1,20 +1,38 @@
-
 .banner {
-    background: var(--gradient-blue);
-    color: var(--main-white);
-    text-align: center;
-    padding: 2.5em 2em;
-    }
-  
-  
-  .title__banner {
-    font-weight: 700;
-    font-size: 1.125em;
-    color: var(--main-white);
-  }
-  
-  .text__banner {
-    font-weight: 500;
-    color: var(--main-white);
-    margin: 1rem 0 1.5rem 0;
-  }
+  background: var(--gradient-blue);
+  color: var(--main-white);
+  text-align: center;
+  padding: 2.5em 2em;
+}
+
+.title__banner {
+  font-weight: 700;
+  font-size: 1.125em;
+  color: var(--main-white);
+}
+
+.text__banner {
+  font-weight: 500;
+  color: var(--main-white);
+  margin: 1rem 0 1.5rem 0;
+}
+
+.search__banner {
+  border: 0.0625em solid var(--main-white);
+  color: var(--main-white);
+  border-radius: 1.5rem;
+  background-color: transparent;
+  padding: 1em;
+  width: 100%;
+}
+
+.search__banner::placeholder {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 0.875rem;
+  text-align: center;
+  color: var(--main-white);
+  background: url("../Assets/Lupa.svg");
+  background-repeat: no-repeat;
+  background-position: 1em;
+}
