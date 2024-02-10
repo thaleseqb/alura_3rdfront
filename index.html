@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>AluraBooks</title>
     <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -65,46 +68,59 @@
       <section class="carousel">
         <h2 class="title__carousel">ÚLTIMOS LANÇAMENTOS</h2>
 
-        <div class="bottom__container">
-          <div class="bottom__container__left">
-            <h2 class="carousel__fh2">
-              Talvez você também se interesse por...
-            </h2>
-            <h2 class="carousel__sh2">Angular 11 e Firebase</h2>
-            <p class="carousel__par">
-              Construindo uma aplicação integrada com a plataforma do Google.
-            </p>
-
-            <div class="lastb__container__left">
-              <a href="#">
-                <img
-                  class="bottom__carousel__button"
-                  src="Assets/Favoritos.svg"
-                  alt="favoritos"
-                />
-              </a>
-              <a href="#">
-                <img
-                  class="bottom__carousel__button"
-                  src="Assets/Compras.svg"
-                  alt="compras"
-                />
-              </a>
-            </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide"><img src="Assets/ApacheKafka.svg" alt="livros sobre apache kafa"></div>
+            <div class="swiper-slide"><img src="Assets/Lideranc╠ºa.svg" alt="liderança em design da alura"></div>
+            <div class="swiper-slide"><img src="Assets/Javascript.svg" alt="livro sobre js assertivo"></div>
+            <div class="swiper-slide"><img src="Assets/Guia Front-end.svg" alt="guia front-end"></div>
+            <div class="swiper-slide"><img src="Assets/Portugol.svg" alt="livro sobre portugol"></div>
+            <div class="swiper-slide"><img src="Assets/Acessibilidade.svg" alt="acessibilidade web"></div>
           </div>
 
-          <div class="bottom__container__right">
-            <img
-              class="bottomcar__rightimg"
-              src="Assets/Angular.svg"
-              alt="angular logo"
-            />
-            <a class="bottomcar__rightanc" href="#">Saiba mais</a>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <div class="card">
+          <div class="_1st__line">
+            <div class="text">
+              <h3 class="f__text">Talvez você também se interesse por...</h3>
+              <h2 class="s__text">Angular 11 e Firebase</h2>
+              <p class="par">Construindo uma aplicação integrada com a plataforma do Google.</p>
+            </div>
+            <img class="angular__logo" src="Assets/Angular.svg" alt="logo do angular">
+          </div>
+
+          <div class="_2nd__line">
+            <ul class="anchor__list">
+              <li class="anchor-item"><a href=""><img src="Assets/Favoritos.svg" alt="favoritos"></a></li>
+              <li class="anchor-item"><a href=""><img src="Assets/Compras.svg" alt="compras"></a></li>
+            </ul>
+            <a class="learn-more__button" href="#">Saiba mais</a>
           </div>
         </div>
+
       </section>
     </main>
 
     <footer></footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination:{
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
   </body>
 </html>
