@@ -3,8 +3,9 @@
   text-align: center;
   color: var(--orange);
   font-weight: 700;
-  font-size: 1.125em;
+  font-size: 1.125rem;
   padding: 1em;
+  text-transform: uppercase;
 }
 
 .swiper-slide img {
@@ -75,4 +76,8 @@
   background-color: var(--orange);
   color: var(--main-white);
   font-weight: 700;
+}
+
+.stars-image {
+  margin-bottom: 0.5rem;
 }
