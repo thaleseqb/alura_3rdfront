@@ -1,0 +1,52 @@
+.recently-viewed {
+    background-color: var(--main-white);
+    padding: 1em 0;
+  }
+  
+  .container-viewed {
+    background: var(--gradient-blue);
+    text-align: center;
+  }
+  
+  .container-viewed__title {
+    text-transform: uppercase;
+    color: var(--main-white);
+    text-align: center;
+    font-weight: 300;
+    padding-top: 1em;
+  }
+  
+  .topic-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .topic-item {
+    margin: 2em 0.5em;
+  }
+  
+  .topic-link {
+    text-decoration: none;
+    color: var(--main-white);
+    font-size: 0.875rem;
+    font-weight: 700;
+    background-color: var(--orange);
+    padding: 1em;
+  }
+  
+  .bottom-container {
+    margin: 1.5em;
+  }
+  
+  .bottom-container__title {
+    font-weight: 500;
+    color: var(--gradient-blue);
+    font-size: 1.125rem;
+  }
+  
+  .bottom-container__par {
+    font-weight: 300;
+    color: var(--gradient-blue);
+    padding: 0.5em 0 1.5em 0;
+  }
