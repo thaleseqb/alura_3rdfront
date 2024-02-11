@@ -58,3 +58,27 @@
 .container__button {
   display: none;
 }
+
+.main-title {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .main-title{
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 1.875rem;
+  }
+
+  .main-title__bold{
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 1.875rem;
+  }
+
+  .header__menu-bg {
+    display: none;
+  }
+
+}
