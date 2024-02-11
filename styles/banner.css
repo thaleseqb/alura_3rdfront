@@ -36,3 +36,18 @@
   background-repeat: no-repeat;
   background-position: 1em;
 }
+
+@media screen and (min-width: 1024px) {
+  .title__banner {
+    font-size: 2.25rem;
+  }
+
+  .search__banner {
+    width: 40%;
+    border-radius: 1.2rem;
+  }
+
+  .search__banner::placeholder{
+    background-position: 2.5em;
+  }
+}

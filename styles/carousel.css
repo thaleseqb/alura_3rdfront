@@ -81,3 +81,29 @@
 .stars-image {
   margin-bottom: 0.5rem;
 }
+
+@media screen and (min-width: 1024px) {
+  .title__carousel {
+    font-size: 1.625rem;
+    padding-top: 3.19rem;
+  }
+
+  .swiper-pagination {
+    margin: 2em 0 3em 0;
+  }
+
+  .swiper {
+    width: 60%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+
+  .card {
+    width: 40%;
+    margin: 2em auto;
+  }
+}

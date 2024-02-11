@@ -50,6 +50,7 @@
 }
 
 .addinfo {
+  font-size: 1rem;
   font-weight: 300;
   margin: 1em 0;
 }
@@ -68,4 +69,48 @@
   background: url("../Assets/Email.svg");
   background-repeat: no-repeat;
   padding-left: 2em;
+}
+
+@media screen and (min-width: 1024px) {
+  .container-viewed__title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding: 1em 0;
+  }
+
+  .topic-link {
+    font-size: 1.5rem;
+  }
+
+  .bottom-container__title,
+  .bottom-container__par {
+    background: var(--gradient-blue);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  
+  .addinfo {
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 1em 0;
+  }
+
+  .bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div-text {
+    margin-right: 3em;
+    width: 30%;
+  }
+
+  .mail {
+    width: 30%;
+  }
+
 }
