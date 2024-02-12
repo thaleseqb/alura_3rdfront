@@ -114,4 +114,35 @@
     display: none;
   }
 
+  .container {
+    justify-content: space-between;
+  }
+
+}
+
+.header-img__anchor {
+  display: none;
+}
+
+@media screen and (min-width: 1728px){
+  .dp_flex {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.25rem;
+  }
+
+  .header {
+    padding: 0 2em;
+  }
+
+  .header-img__anchor {
+    display: block;
+    padding: 0.5em;
+  }
+
+  .tablet-header__list {
+    margin-right: auto;
+  }
 }

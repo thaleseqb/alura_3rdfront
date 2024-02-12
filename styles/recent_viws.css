@@ -114,3 +114,23 @@
   }
 
 }
+
+@media screen and (min-width: 1728px) {
+  
+  .container-viewed {
+    padding: 0 20vw 3em 20vw;
+  }
+  
+  .container-viewed__title {
+    font-size: 2rem;
+    padding: 2.5rem 0;
+  }
+
+  .topic-link {
+    padding: 1em 2em;
+  }
+
+  .bottom-container {
+    padding: 3em 20vw;
+  }
+}
