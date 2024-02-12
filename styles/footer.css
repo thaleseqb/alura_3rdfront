@@ -1,7 +1,43 @@
 hr {
   margin: 0;
 }
-  
+
 .footer-title {
-  padding: 1em 0 1.5rem 1.5rem;
+    padding: 1em 0 1.5rem 1.5rem;
+}
+
+.right-container {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+  }
+
+  .footer-title {
+    font-size: 1.5rem;
+    padding-right: 1em;
+  }
+
+  .footer-list {
+    padding: 1em;
+  }
+
+  .title-footer__section {
+    text-transform: uppercase;
+    color: var(--grey);
+    margin-bottom: 1em;
+  }
+
+  .footer-list__item {
+    padding: 0.5em;
+  }
+
+  .right-container {
+    display: flex;
+  }
 }
